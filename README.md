@@ -21,7 +21,8 @@ Create a way to track how many rounds each player has won
 
 When one player wins 3 rounds, announce that player's name as the game winner
 
-Push the code to our class GitHub Repo
+Send a pull request to this Repo
 
 See below for all possible winning outcomes
+
 
