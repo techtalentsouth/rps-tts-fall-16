@@ -3,10 +3,7 @@
  TTS Assn: 1
  */
 
-var player1 = {}, player2 = {};
-player1.wins = player2.wins = 0;
-player1.name = '';
-player2.name = 'Computer';
+var player1 = {name: '', wins: 0}, player2 = {name: 'Computer', wins: 0};
 
 const weapons = ['rock', 'paper', 'scissors'];
 
@@ -28,7 +25,7 @@ const points = function (choice1, choice2) {
         player2.wins++;
         alert(results + player2.name + " wins!")
         if (player2.wins === 3) {
-            alert(player2.name + " wins the match");
+            alert(player2.name + " wins the match!");
             play = false;
         }
     }
@@ -48,5 +45,4 @@ while (play) {
     }
     var choice2 = parseInt(Math.random() * weapons.length) % 3;
     points(choice1, choice2);
-
 };
